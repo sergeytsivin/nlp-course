@@ -11,13 +11,16 @@ telegram: @king_menin
 |                       | Лекции                                                                                                                                           | Практика                                                    | Домашнее  задание                                                   |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|---------------------------------------------------------------------|
 | занятие 1 (21 апреля)  | Введение: задачи автоматической обработки текстов и основные подходы к их решению. Токенизация, морфологический анализ. Sequence labeling  | Регулярные выражения, лемматизация, POS-тэггинг, морфологический анализ. | Генерация текста по шаблону. Извлечение телефонных номеров из текста.   
+| занятие 2 (28 апреля)  | Тематическое моделирование  | Применение тематического моделирования и визуализация коллекций. Классификация.| 
 
 
 ## 21 апреля
 
 Данные к занятию лежат в папке: [git:sem1](https://github.com/king-menin/nlp-course/tree/master/sem%201)
 
-Лекция 1: [intro.pdf](https://github.com/king-menin/nlp-course/blob/master/lecture%201.%20intro%20to%20nlp/intro.pdf), лекция 2: [morphology.pdf](https://github.com/king-menin/nlp-course/blob/master/lecture%202.%20morphology/morphology.pdf),  практика [sem1.ipynb](https://github.com/king-menin/nlp-course/blob/master/sem%201/sem1.ipynb), домашнее задание: [hw1.ipynb](https://github.com/king-menin/nlp-course/blob/master/hw1/hw1.ipynb)
+Лекция 1: [intro.pdf](https://github.com/king-menin/nlp-course/blob/master/lecture%201.%20intro%20to%20nlp/intro.pdf)
+
+Лекция 2: [morphology.pdf](https://github.com/king-menin/nlp-course/blob/master/lecture%202.%20morphology/morphology.pdf),  практика [sem1.ipynb](https://github.com/king-menin/nlp-course/blob/master/sem%201/sem1.ipynb), домашнее задание: [hw1.ipynb](https://github.com/king-menin/nlp-course/blob/master/hw1/hw1.ipynb)
 
 Необходимые библиотеки Python:
 * nltk; после установки nltk необходимо из командной строки Python3 вызвать команды
@@ -30,6 +33,32 @@ nltk.download('punkt')
 * matplotlib
 * pandas
 * sklearn
+
+## 28 апреля
+
+Данные к занятию лежат в папке: [git:sem2](https://github.com/king-menin/nlp-course/tree/master/sem%202)
+
+Лекция 3: [topic modeling.pdf](https://github.com/king-menin/nlp-course/blob/master/lecture%203.%20topic%20modeling/topic%20modeling.pdf),  практика [topic modeling.ipynb](https://github.com/king-menin/nlp-course/blob/master/sem%202/topic_modeling.ipynb) или (для тех, кто хочет выполнять семинары онлайн) [topic modeling.ipynb](https://drive.google.com/file/d/18QKAqSRyHxueej6XBSNLcEgY9Fr7_kAO/view?usp=sharing)
+
+Лекция 4: [classification.pdf](https://github.com/king-menin/nlp-course/blob/master/lecture%204.%20classification/classification.pdf),  практика [classification.ipynb](https://github.com/king-menin/nlp-course/blob/master/sem%202/classification.ipynb) или (для тех, кто хочет выполнять семинары онлайн) [classification.ipynb](https://drive.google.com/file/d/1I9qBSkgILoLl0fLtm7Mqrl6L3xBv3IOr/view?usp=sharing), данные [data-train.txt](https://drive.google.com/file/d/19e2fOFpykP4iWCCCxzlJraAilvnVb1m9/view?usp=sharing)
+
+Необходимые библиотеки Python:
+* nltk; после установки nltk необходимо из командной строки Python3 вызвать команды
+```python
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+```
+* pymorphy2
+* matplotlib
+* pandas
+* sklearn
+* pymystem3
+* python-rake
+* wordcloud
+* gensim
+* pyLDAvis
+* fasttext (не путайте с fastText)
 
 
 
